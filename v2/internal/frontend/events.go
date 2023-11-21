@@ -9,5 +9,3 @@ type Events interface {
 	OffAll()
 	Notify(sender Frontend, name string, data ...interface{})
 }
-
-//
