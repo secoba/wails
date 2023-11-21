@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ApDelegate.h
 //  test
 //
 //  Created by Lea Anthony on 10/10/21.
@@ -11,7 +11,7 @@
 #import <Cocoa/Cocoa.h>
 #import "WailsContext.h"
 
-@interface AppDelegate : NSResponder <NSApplicationDelegate, NSTouchBarProvider>
+@interface ApDelegate : NSResponder <NSApplicationDelegate, NSTouchBarProvider>
 
 @property bool alwaysOnTop;
 @property bool startHidden;

@@ -366,7 +366,7 @@ void AppendSeparator(void* inMenu) {
 void Run(void *inctx, const char* url) {
     WailsContext *ctx = (__bridge WailsContext*) inctx;
     NSApplication *app = [NSApplication sharedApplication];
-    AppDelegate* delegate = [AppDelegate new];
+    ApDelegate* delegate = [ApDelegate new];
     [app setDelegate:(id)delegate];
     ctx.appdelegate = delegate;
     delegate.mainWindow = ctx.mainWindow;

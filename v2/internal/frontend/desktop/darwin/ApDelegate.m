@@ -1,5 +1,5 @@
 //
-//  AppDelegate.m
+//  ApDelegate.m
 //  test
 //
 //  Created by Lea Anthony on 10/10/21.
@@ -10,7 +10,7 @@
 
 #import "ApDelegate.h"
 
-@implementation AppDelegate
+@implementation ApDelegate
 -(BOOL)application:(NSApplication *)sender openFile:(NSString *)filename
 {
    const char* utf8FileName = filename.UTF8String;
