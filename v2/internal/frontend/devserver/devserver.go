@@ -16,16 +16,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/wailsapp/wails/v2/pkg/assetserver"
+	"github.com/secoba/wails/v2/pkg/assetserver"
 
-	"github.com/wailsapp/wails/v2/internal/frontend/runtime"
+	"github.com/secoba/wails/v2/internal/frontend/runtime"
 
 	"github.com/labstack/echo/v4"
-	"github.com/wailsapp/wails/v2/internal/binding"
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/internal/menumanager"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/secoba/wails/v2/internal/binding"
+	"github.com/secoba/wails/v2/internal/frontend"
+	"github.com/secoba/wails/v2/internal/logger"
+	"github.com/secoba/wails/v2/internal/menumanager"
+	"github.com/secoba/wails/v2/pkg/options"
 	"golang.org/x/net/websocket"
 )
 

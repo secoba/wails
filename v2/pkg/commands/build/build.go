@@ -11,15 +11,15 @@ import (
 	"github.com/pterm/pterm"
 	"github.com/samber/lo"
 
-	"github.com/wailsapp/wails/v2/internal/staticanalysis"
-	"github.com/wailsapp/wails/v2/pkg/commands/bindings"
+	"github.com/secoba/wails/v2/internal/staticanalysis"
+	"github.com/secoba/wails/v2/pkg/commands/bindings"
 
-	"github.com/wailsapp/wails/v2/internal/fs"
+	"github.com/secoba/wails/v2/internal/fs"
 
-	"github.com/wailsapp/wails/v2/internal/shell"
+	"github.com/secoba/wails/v2/internal/shell"
 
-	"github.com/wailsapp/wails/v2/internal/project"
-	"github.com/wailsapp/wails/v2/pkg/clilogger"
+	"github.com/secoba/wails/v2/internal/project"
+	"github.com/secoba/wails/v2/pkg/clilogger"
 )
 
 // Mode is the type used to indicate the build modes

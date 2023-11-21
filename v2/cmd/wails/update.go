@@ -6,11 +6,11 @@ import (
 
 	"github.com/labstack/gommon/color"
 	"github.com/pterm/pterm"
-	"github.com/wailsapp/wails/v2/cmd/wails/flags"
-	"github.com/wailsapp/wails/v2/internal/colour"
-	"github.com/wailsapp/wails/v2/internal/shell"
+	"github.com/secoba/wails/v2/cmd/wails/flags"
+	"github.com/secoba/wails/v2/internal/colour"
+	"github.com/secoba/wails/v2/internal/shell"
 
-	"github.com/wailsapp/wails/v2/internal/github"
+	"github.com/secoba/wails/v2/internal/github"
 )
 
 // AddSubcommand adds the `init` command for the Wails application
@@ -141,7 +141,7 @@ func updateToVersion(targetVersion *github.SemanticVersion, force bool, currentV
 		fatal("Cannot find home directory! Please file a bug report!")
 	}
 
-	sout, serr, err := shell.RunCommand(homeDir, "go", "install", "github.com/wailsapp/wails/v2/cmd/wails@"+desiredVersion)
+	sout, serr, err := shell.RunCommand(homeDir, "go", "install", "github.com/secoba/wails/v2/cmd/wails@"+desiredVersion)
 	if err != nil {
 		pterm.Println("Failed.")
 		pterm.Error.Println(sout + `\n` + serr)

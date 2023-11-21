@@ -20,22 +20,22 @@ import (
 	"time"
 
 	"github.com/samber/lo"
-	"github.com/wailsapp/wails/v2/cmd/wails/flags"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/gomod"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal/logutils"
+	"github.com/secoba/wails/v2/cmd/wails/flags"
+	"github.com/secoba/wails/v2/cmd/wails/internal/gomod"
+	"github.com/secoba/wails/v2/cmd/wails/internal/logutils"
 	"golang.org/x/mod/semver"
 
-	"github.com/wailsapp/wails/v2/pkg/commands/buildtags"
+	"github.com/secoba/wails/v2/pkg/commands/buildtags"
 
 	"github.com/google/shlex"
 
 	"github.com/pkg/browser"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/wailsapp/wails/v2/internal/fs"
-	"github.com/wailsapp/wails/v2/internal/process"
-	"github.com/wailsapp/wails/v2/pkg/clilogger"
-	"github.com/wailsapp/wails/v2/pkg/commands/build"
+	"github.com/secoba/wails/v2/internal/fs"
+	"github.com/secoba/wails/v2/internal/process"
+	"github.com/secoba/wails/v2/pkg/clilogger"
+	"github.com/secoba/wails/v2/pkg/commands/build"
 )
 
 const (

@@ -10,10 +10,10 @@ import (
 	"github.com/pterm/pterm"
 
 	"github.com/jaypipes/ghw"
-	"github.com/wailsapp/wails/v2/cmd/wails/flags"
-	"github.com/wailsapp/wails/v2/internal/colour"
-	"github.com/wailsapp/wails/v2/internal/system"
-	"github.com/wailsapp/wails/v2/internal/system/packagemanager"
+	"github.com/secoba/wails/v2/cmd/wails/flags"
+	"github.com/secoba/wails/v2/internal/colour"
+	"github.com/secoba/wails/v2/internal/system"
+	"github.com/secoba/wails/v2/internal/system/packagemanager"
 )
 
 func diagnoseEnvironment(f *flags.Doctor) error {

@@ -2,10 +2,10 @@ package main
 
 import (
 	"github.com/pterm/pterm"
-	"github.com/wailsapp/wails/v2/cmd/wails/flags"
-	"github.com/wailsapp/wails/v2/cmd/wails/internal"
-	"github.com/wailsapp/wails/v2/internal/colour"
-	"github.com/wailsapp/wails/v2/internal/github"
+	"github.com/secoba/wails/v2/cmd/wails/flags"
+	"github.com/secoba/wails/v2/cmd/wails/internal"
+	"github.com/secoba/wails/v2/internal/colour"
+	"github.com/secoba/wails/v2/internal/github"
 )
 
 func showReleaseNotes(f *flags.ShowReleaseNotes) error {
