@@ -5,8 +5,8 @@
 //  Created by Lea Anthony on 10/10/21.
 //
 
-#ifndef AppDelegate_h
-#define AppDelegate_h
+#ifndef ApDelegate_h
+#define ApDelegate_h
 
 #import <Cocoa/Cocoa.h>
 #import "WailsContext.h"
@@ -30,4 +30,4 @@ void SendDataToFirstInstance(char * singleInstanceUniqueId, char * text);
 
 char* GetMacOsNativeTempDir();
 
-#endif /* AppDelegate_h */
+#endif /* ApDelegate_h */
