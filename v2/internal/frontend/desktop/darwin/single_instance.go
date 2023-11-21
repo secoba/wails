@@ -6,7 +6,7 @@ package darwin
 /*
 #cgo CFLAGS: -x objective-c
 #cgo LDFLAGS: -framework Foundation -framework Cocoa
-#import "AppDelegate.h"
+#import "ApDelegate.h"
 
 */
 import "C"

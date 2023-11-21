@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
 
-#import "AppDelegate.h"
+#import "ApDelegate.h"
 
 @implementation AppDelegate
 -(BOOL)application:(NSApplication *)sender openFile:(NSString *)filename

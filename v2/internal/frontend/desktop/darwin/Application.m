@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "WailsContext.h"
 #import "Application.h"
-#import "AppDelegate.h"
+#import "ApDelegate.h"
 #import "WindowDelegate.h"
 #import "WailsMenu.h"
 #import "WailsMenuItem.h"

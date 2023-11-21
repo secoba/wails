@@ -27,6 +27,8 @@ var templates embed.FS
 //go:embed all:ides/*
 var ides embed.FS
 
+//
+
 // Cahce for the templates
 // We use this because we need different views of the same data
 var templateCache []Template = nil
