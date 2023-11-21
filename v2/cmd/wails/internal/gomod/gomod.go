@@ -14,6 +14,7 @@ import (
 )
 
 func SyncGoMod(logger *clilogger.CLILogger, updateWailsVersion bool) error {
+	updateWailsVersion = false
 	cwd, err := os.Getwd()
 	if err != nil {
 		return err
